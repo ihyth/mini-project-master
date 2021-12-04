@@ -1,0 +1,187 @@
+@keyframes start {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body {
+  box-sizing: border-box;
+  background-color: rgb(190, 241, 169);
+  font-family: sans-serif;
+  animation-name: start;
+  animation-duration: 1s;
+}
+.products {
+  margin: 20px;
+}
+nav {
+  margin: 2% 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav > h3 :hover {
+  font-size: larger;
+}
+nav > h3 > a {
+  text-decoration: none;
+  color: black;
+}
+#title {
+  color: green;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 15%;
+  padding: 5%;
+  justify-content: space-around;
+  background-color: rgba(233, 55, 55, 0.815);
+  animation-name: pop;
+  animation-duration: 0.5s;
+}
+form input {
+  margin: 1%;
+  padding: 1%;
+}
+form select {
+  padding: 1%;
+  margin: 1%;
+}
+form #submit{
+  background-color: green;
+  margin: 0 30%;
+}
+.back {
+  text-align: center;
+  font-size: larger;
+}
+.back > a {
+  text-decoration: none;
+  color: rgb(6, 68, 240);
+  
+}
+.lgdiv {
+  display: block;
+  padding: 10%;
+  margin: 2% 10%;
+  text-align: center;
+  background: url("../images/food1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.lgdiv h4 {
+  color: red;
+  background-color: rgba(55, 211, 24, 0.6);
+  padding: 2%;
+  border-radius: 10px;
+  opacity: 1;
+  font-size: xx-large;
+}
+.lgdiv h4 {
+  padding: 3%;
+}
+#scroll {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5%;
+  width: 5%;
+}
+.products {
+  margin: 10% 13%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(50, 224, 26, 0.774);
+  padding: 5%;
+  border-radius: 20px;
+}
+.product {
+  padding: 18px;
+  display: flex;
+}
+.imgprd > img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 10rem;
+  width: 12rem;
+}
+.tagprod {
+  color: green;
+  padding: 4%;
+}
+#abt {
+  color: gold;
+}
+.about {
+  margin: 100px;
+  text-align: justify;
+}
+.about > h2 {
+  color: goldenrod;
+}
+.about > p {
+  color: white;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 100%;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: green;
+}
+.categories {
+  display:flex;
+  flex-direction: row;
+  margin: 2% 5%;
+  justify-content: space-between;
+}
+.cats {
+    padding: 10%;
+    background-color: green;
+}
+h1 {
+  margin: 5% 0;
+  text-align: center
+}
+#abouth1{
+  background-color: green;
+  padding: 2%;
+  margin: 3%;
+}
+#abouth2{
+  text-align: center;
+  background-color: rgb(23, 194, 23);
+  padding: 2%;
+  margin: 3%;
+}
+#abouth3{
+  text-align: center;
+  background-color: rgb(23, 194, 23);
+  padding: 2%;
+  margin: 3%;
+}

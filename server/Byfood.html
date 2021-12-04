@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetFood</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h3><a id="title" href="../index.html">Home</a></h3>
+        <h3><a id="active" href="Byfood.html">ByFood</a></h3>
+        <h3><a href="orders.html" >Orders</a></h3>
+        <h3><a href="about.html">About</a></h3>
+    </nav>
+    <form method="POST" action="Byfood.php">
+        <input type="text" name="email" id="email" placeholder="email">
+        <input type="text" name="address" id="address" placeholder="address">
+        <select name="veg" id="veg">
+            <option value="">---- select your veg food (dont select if you dont need) ----</option>            
+            <option value="malai kufta">malai kufta</option>
+            <option value="veg kolhapuri">veg kolhapuri</option>
+            <option value="veg kadai">veg kadai</option>
+            <option value="rajma masala">rajma masala</option>
+            <option value="chole masala">chole masala</option>
+            <option value="aloo kurma">aloo kurma</option>
+            <option value="matar paneer">matar paneer</option>
+            <option value="dal makhani">dal makhani</option>
+            <option value="paneer butter masala">paneer butter masala</option>
+            <option value="mixed veg currey">mixed veg currey</option>
+        </select>
+        <select name="nonveg" id="nonveg">
+            <option value="">---- select your nonveg food (dont select if you dont need) ----</option>
+            <option value="chicken briyani">chicken briyani</option>
+            <option value="mutton briyani">mutton briyani</option>
+            <option value="fish fry">fish fry</option>
+        </select>
+        <select name="bnd" id="bnd">
+            <option value="">---- select your Beverage or Dessert (dont select if you dont need) ----</option>            
+            <option value="pista ice cream">pista ice cream</option>
+            <option value="death chocolate">death chocolate</option>
+            <option value="sizzler brownie">sizzler brownie</option>
+            <option value="rajbogh ice cream">rajbough ice cream </option>
+            <option value="sunrise mocktail">sunrise mocktail</option>
+            <option value="american nuts ice cream">american nuts ice cream </option>
+            <option value="blue angel ice cream">blue angle ice cream </option>
+            <option value="oreo thick shake">oreo thick shake</option>
+            <option value="salted caramel">salted caramel</option>
+            <option value="vargin mojito">vargin mojito</option>
+        </select>
+        <input type="submit" id="submit" value="Order Food">
+    </form>
+    <script src="js/index.js"></script>
+</body>
+</html>
